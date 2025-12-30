@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhail Akhtar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <header>
+        <div class="profile-section">
+            <div class="profile-photo">
+                <img src="Profe photo.jpeg" alt="Suhail Akhtar Photo">
+            </div>
+
+            <div class="profile-info">
+                <h1>Suhail Akhtar</h1>
+                <p class="subtitle">B.Tech CSE (AI & ML) | Web Developer</p>
+                <div class="location">📍 Patna, India</div>
+
+                <div class="contact-info">
+                    <a class="contact-item" href="mailto:suhailakhtar7687@gmail.com">📧 Email</a>
+                    <span class="contact-item">📱 +91 9334490975</span>
+                    <a class="contact-item" href="https://www.linkedin.com/in/suhail-akhtar-a00972310" target="_blank">💼 LinkedIn</a>
+                    <a class="contact-item" href="https://github.com/suhailakhtar7" target="_blank">💻 GitHub</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section>
+        <h2>About Me</h2>
+        <p class="about-text">
+            I am a first-year B.Tech Computer Science student specializing in
+            Artificial Intelligence and Machine Learning at Rungta International
+            Skills University. I enjoy Web Development and love building clean,
+            modern, and responsive websites.
+            <br><br>
+            I actively participate in hackathons and technical events, where I
+            collaborate with teams to build innovative solutions and improve my
+            problem-solving skills.
+        </p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+        <h2>Education</h2>
+        <div class="education-item">
+            <strong>B.Tech CSE (AI & ML)</strong><br>
+            Rungta International Skills University<br>
+            <small>1st Year · Currently Pursuing</small>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basic)</li>
+            <li>C Programming</li>
+        </ul>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="cert-section">
+        <h2>Certificates</h2>
+
+        <div class="cert-grid">
+            <div class="cert-card" onclick="openCert('images/Screenshot 2025-12-30 121556.png')">
+              <a href="images/Screenshot 2025-12-30 121556.png">  <img src="images/Screenshot 2025-12-30 121556.png" alt="IBM C Certificate"></a>
+                <p>IBM – Software Foundation with C Programming</p>
+            </div>
+
+            <div class="cert-card" onclick="openCert('images/Screenshot 2025-12-30 121502.png')">
+               <a href="images/Screenshot 2025-12-30 121502.png"> <img src="images/Screenshot 2025-12-30 121502.png" alt="IBM Web Certificate"></a>
+                <p>IBM – HTML, CSS & JavaScript for Beginners</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Suhail Akhtar</p>
+        <p class="footer-small">Built using HTML, CSS & JavaScript</p>
+    </footer>
+</div>
+
+<!-- MODAL -->
+<div id="modal" onclick="closeCert()">
+    <img id="modalImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
