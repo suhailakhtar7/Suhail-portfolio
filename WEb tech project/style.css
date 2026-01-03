@@ -33,6 +33,11 @@ header {
     object-fit: cover;
 }
 
+.profile-photo img:hover {
+    box-shadow: 0 0 20px rgba(102,126,234,0.8);
+}
+
+
 .subtitle {
     color: #555;
     margin: 8px 0;
