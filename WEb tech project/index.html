@@ -1,101 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suhail Akhtar - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suhail Akhtar | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-<div class="container">
+<header>
 
-    <!-- HEADER -->
-    <header>
-        <div class="profile-section">
-            <div class="profile-photo">
-                <img src="Profe photo.jpeg" alt="Suhail Akhtar Photo">
-            </div>
+<nav class="navbar">
 
-            <div class="profile-info">
-                <h1>Suhail Akhtar</h1>
-                <p class="subtitle">B.Tech CSE (AI & ML) | Web Developer</p>
-                <div class="location">📍 Patna, India</div>
+<h2 class="logo">Suhail Akhtar</h2>
 
-                <div class="contact-info">
-                    <a class="contact-item" href="mailto:suhailakhtar7687@gmail.com">📧 Email</a>
-                    <span class="contact-item">📱 +91 9334490975</span>
-                    <a class="contact-item" href="https://www.linkedin.com/in/suhail-akhtar-a00972310" target="_blank">💼 LinkedIn</a>
-                    <a class="contact-item" href="https://github.com/suhailakhtar7" target="_blank">💻 GitHub</a>
-                </div>
-            </div>
-        </div>
-    </header>
+<ul>
 
-    <!-- ABOUT -->
-    <section>
-        <h2>About Me</h2>
-        <p class="about-text">
-            I am a first-year B.Tech Computer Science student specializing in
-            Artificial Intelligence and Machine Learning at Rungta International
-            Skills University. I enjoy Web Development and love building clean,
-            modern, and responsive websites.
-            <br><br>
-            I actively participate in hackathons and technical events, where I
-            collaborate with teams to build innovative solutions and improve my
-            problem-solving skills.
-        </p>
-    </section>
+<li><a href="#home">Home</a></li>
 
-    <!-- EDUCATION -->
-    <section>
-        <h2>Education</h2>
-        <div class="education-item">
-            <strong>B.Tech CSE (AI & ML)</strong><br>
-            Rungta International Skills University<br>
-            <small>1st Year · Currently Pursuing</small>
-        </div>
-    </section>
+<li><a href="#about">About</a></li>
 
-    <!-- SKILLS -->
-    <section>
-        <h2>Skills</h2>
-        <ul class="skills">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript (Basic)</li>
-            <li>C Programming</li>
-        </ul>
-    </section>
+<li><a href="#skills">Skills</a></li>
 
-    <!-- CERTIFICATES -->
-    <section class="cert-section">
-        <h2>Certificates</h2>
+<li><a href="#projects">Projects</a></li>
 
-        <div class="cert-grid">
-            <div class="cert-card" onclick="openCert('images/Screenshot 2025-12-30 121556.png')">
-              <a href="images/Screenshot 2025-12-30 121556.png">  <img src="images/Screenshot 2025-12-30 121556.png" alt="IBM C Certificate"></a>
-                <p>IBM – Software Foundation with C Programming</p>
-            </div>
+<li><a href="#certificates">Certificates</a></li>
 
-            <div class="cert-card" onclick="openCert('images/Screenshot 2025-12-30 121502.png')">
-               <a href="images/Screenshot 2025-12-30 121502.png"> <img src="images/Screenshot 2025-12-30 121502.png" alt="IBM Web Certificate"></a>
-                <p>IBM – HTML, CSS & JavaScript for Beginners</p>
-            </div>
-        </div>
-    </section>
+<li><a href="#contact">Contact</a></li>
 
-    <footer>
-        <p>© 2025 Suhail Akhtar</p>
-        <p class="footer-small">Built using HTML, CSS & JavaScript</p>
-    </footer>
+</ul>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-text">
+
+<h3>Hello, I'm</h3>
+
+<h1>Suhail Akhtar</h1>
+
+<h2>
+<span id="typing"></span>
+</h2>
+
+<p>
+
+B.Tech CSE (AI & ML) Student passionate about Software Development,
+Java Programming and Web Development.
+
+</p>
+
+<div class="buttons">
+
+<a href="resume.pdf" class="btn">Download Resume</a>
+
+<a href="#contact" class="btn2">Contact Me</a>
+
 </div>
 
-<!-- MODAL -->
-<div id="modal" onclick="closeCert()">
-    <img id="modalImg">
 </div>
+
+<div class="hero-image">
+
+<img src="images/profile.png" alt="Suhail">
+
+</div>
+
+</section>
 
 <script src="script.js"></script>
+
 </body>
+
 </html>
